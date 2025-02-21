@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import Stick from './Stick'
 
 const Component1 = () => {
 
@@ -27,6 +28,9 @@ const Component1 = () => {
 
 
   return (
+
+    // <Stick />
+
     <div className='container d-flex flex-column box'>
 
         <div className='row d-flex justify-content-center' onClick={handlerRed}>
@@ -38,12 +42,12 @@ const Component1 = () => {
         </div>
 
         <div className='row d-flex justify-content-center' onClick={handlerYellow}>
-        <div className={selectYellow? 'yellow-light selected': 'yellow-light' } ></div>
+            <div className={selectYellow? 'yellow-light selected': 'yellow-light' } ></div>
         </div>
 
 
         <div className='row d-flex justify-content-center' onClick={handlerGreen}>
-        <div className={selectGreen? 'green-light selected': 'green-light' } ></div>
+            <div className={selectGreen? 'green-light selected': 'green-light' } ></div>
         </div>
 
         

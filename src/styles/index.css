@@ -57,3 +57,9 @@
     box-shadow: 0px 0px 25px rgb(255, 246, 125);
 
   }
+
+  .stick{
+    background-color: black;
+    width: 10px;
+    height: 100px;
+  }
